@@ -119,8 +119,11 @@ function App() {
           <div>
             <h1>Discover Your Next Adventure</h1>
             <p>
-              Explore travel stories, guides, and experiences from around the
-              world.
+              Discover breathtaking destinations, hidden gems, and unforgettable
+              adventures through our curated travel stories, expert guides, and
+              firsthand experiences. Whether you're a solo traveler, a digital
+              nomad, or planning a family vacation, find inspiration, tips, and
+              itineraries to make your journey seamless and memorable.
             </p>
             <a href="#blogs" className="btn btn-outline-light explore">
               Explore Blogs

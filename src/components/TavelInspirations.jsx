@@ -1,4 +1,5 @@
 import React from "react";
+import "./TravelInspirations.css";
 
 const TravelInspiration = () => {
   const travelIdeas = [
@@ -45,8 +46,12 @@ const TravelInspiration = () => {
               key={idea.id}
               className="col-md-3 mb-4 d-flex align-items-stretch"
             >
-              <div className="card shadow-sm">
-                <img src={idea.image} className="card-img-top" alt={idea.alt} />
+              <div className="cardz">
+                <img
+                  src={idea.image}
+                  className="card-img-top imgz"
+                  alt={idea.alt}
+                />
                 <div className="card-body text-center">
                   <h5 className="card-title">{idea.title}</h5>
                 </div>
